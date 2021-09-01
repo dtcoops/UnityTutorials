@@ -30,7 +30,7 @@ public class Graph : MonoBehaviour
             // linear
             // position.y = position.x;
             // parabola
-            position.y = position.x * position.x;
+            position.y = position.x * position.x * position.x;
 
             point.localPosition = position;
             point.localScale = scale;
